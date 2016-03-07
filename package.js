@@ -1,11 +1,12 @@
 Package.describe({
-  summary: "iconv-lite - pure javascript character encoding conversion (npm integrated for meteor)"
+  summary: "iconv-lite - pure javascript character encoding conversion (npm integrated for meteor)",
+  version: "1.0.3",
+  git: "https://github.com/gbhrdt/meteor-iconv-lite.git",
+  name: 'gbhrdt:meteor-iconv-lite'
 });
 
 Npm.depends({
-  // "vows": "0.7.0", // for test only
-  "iconv": "2.0.5",
-  "iconv-lite": "0.2.11"
+  "iconv-lite": "~0.4.13"
 });
 
 Package.on_use(function (api) {
