@@ -10,6 +10,8 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
+  api.versionsFrom('METEOR@1.2');
+
   api.add_files('iconv-lite.js', 'server');
   api.export('iconv', 'server');
 
